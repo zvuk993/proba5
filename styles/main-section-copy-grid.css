@@ -3,12 +3,13 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
 }
 
 
 .accordion-container {
   padding-top: 20px;
-  padding-bottom: 32px;
+  padding-bottom: 46px;
 }
 
 .accordion {

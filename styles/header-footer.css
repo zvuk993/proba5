@@ -85,7 +85,7 @@
 /** FOOTER **/
 
 .footer {
-  position: fixed;
+  position: absolute;
   bottom: 0px;
   padding-bottom: 10px;
   padding-top: 10px;
