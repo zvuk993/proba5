@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tamburica Radio</title>
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header-footer.css">
+    <link rel="stylesheet" href="styles/main-section-copy-grid.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  </head>
+
+  <body>
+    <!--HEADER-->
+    <div class="background-collor-song-info">providna slova</div>
+    
+    <header class="header">
+      <div class="player-section">
+
+        <!--INFOS - Информация о радио -->
+        <div class="song-info-container">
+          <p class="song-info" data-myinfo="song"></p>
+        </div>
+
+        
+        <!--END INFOS-->
+
+        <div class="player-and-title-container">
+          <div id="my_player_custom" class="my_player" data-player="custom" data-streamurl="https://myradio24.org/tamburica"></div>
+  
+          <div id="my_player_custom_html" style="display:none;" data-imagesurl="{'play':'https://myradio24.com/player/demo/play.png','pause':'https://myradio24.com/player/demo/pause.png'} ">
+          <div class="my_play" style="width:64px; height:64px; background-image:url('https://myradio24.com/player/demo/play.png'); cursor:pointer;"></div>
+          <div class="my_timer" style="display:none; width:64px; font:26px Arial; color:#000000;">00:00</div>
+          <div class="my_volumediv" style="display:none; width:64px; height:16px; background:#303030; background-image:linear-gradient(#202020, #303030); border-radius:3px; cursor:pointer; text-align:left; user-select:none;">
+          <div class="my_volume" style="width:64px; height:16px; background:#cccccc; background-image:linear-gradient(#eeeeee, #aaaaaa); border-radius:3px;"></div>
+          </div>
+          <div class="my_loading" style="display:none; width:64px; font:16px Arial; color:#000000;"></div>
+          </div>
+          <p class="radio-title">TAMBURICA RADIO</p>
+          
+      
+          <!--Этот скрипт должен располагаться в самом низу после всех блоков и не должен повторяться на странице. -->
+          <script src="https://myradio24.com/player/player.js?v3.26" data-port="tamburica" data-interval=15 data-vmid=0></script>
+        </div>
+        </div>
+    </header>
+    <!--END HEADER-->
+
+    <!--ACCORDION MENU-->
+    <div class="accordion-container">
+      <div class="accordion">
+        <!--SKOLE TAMBURE-->
+        <div>
+          <input type="checkbox" name="example_accordion" id="section1" class="accordion__input">
+          <label for="section1" class="accordion__label">ŠKOLE TAMBURE</label>
+          <div class="accordion__content">
+            <div class="accordion">
+              <div>
+                <input type="checkbox" name="example_accordion1" id="section1-1" class="accordion__input1">
+                <label for="section1-1" class="accordion__label1">Novi Sad</label>
+                <div class="accordion__content1">
+                  <div class="content1-info">
+                    CTK - Centar tamburaske kulture
+                    <a href="http://www.ctk.rs/">Website</a>
+                    <a href="https://www.facebook.com/tamburaskicentar">facebook</a>
+                    <a href="https://www.instagram.com/centar.tamburaske.kulture.ns/">Instagram</a>
+                  </div>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11233.840667090726!2d19.8195403!3d45.258708!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475b111aa5a9e6ad%3A0xb1b389a8057de902!2sCentar%20tambura%C5%A1ke%20kulture%20-%20Novi%20Sad!5e0!3m2!1sen!2srs!4v1689083689646!5m2!1sen!2srs" width="130" height="130" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+              </div>
+              <div>
+                <input type="checkbox" name="example_accordion1" id="section1-2" class="accordion__input1">
+                <label for="section1-2" class="accordion__label1">Pančevo</label>
+                <div class="accordion__content1">
+                  <div class="content1-info">
+                    Tamburaški centar "Tamburatorijum"
+                    <a href="https://tamburatorijum.weebly.com/">Website</a>
+                    <a href="https://www.facebook.com/tamburatorijum">facebook</a>
+                    <a href="https://www.instagram.com/tamburatorijum/">Instagram</a>
+                  </div>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11309.838239163204!2d20.6466731!3d44.8732959!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7ffb4389d417%3A0x25436fc4b9c3625d!2sTamburatorijum!5e0!3m2!1sen!2srs!4v1689085932426!5m2!1sen!2srs" width="130" height="130" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+              </div>
+              <div>
+                <input type="checkbox" name="example_accordion1" id="section1-3" class="accordion__input1">
+                <label for="section1-3" class="accordion__label1">Sombor</label>
+                <div class="accordion__content1">
+                  <div class="content1-info">
+                    Škola tambure u "Nazoru"                  
+                    <a href="https://www.soinfo.org/vesti/kliping/724/skola-tambure/">Informacije - klik</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--END SKOLE TAMBURE-->
+        <!--U SVETU TAMBURE-->
+        <div>
+          <input type="checkbox" name="example_accordion" id="section2" class="accordion__input">
+          <label for="section2" class="accordion__label">U SVETU TAMBURE</label>
+          <div class="u-svetu-tambure-grid-container">
+          <div class="u-svetu-tambure-grid">
+            <div class="u-svetu-tambure-news-preview">
+              <div>
+                <p class="u-svetu-tambure-location">Sombor</p>
+              </div>
+              <a class="picture-link-container">
+                <img class="u-svetu-tambure-picture" src="images/images-u-svetu-tambure/5. fijakerijada u doroslovu.jpeg"> 
+              </a>
+              <p class="u-svetu-tambure-header">5. Fijakerijada u Doroslovu "Konji nasi razigrani" - Doroslovo</p> 
+              <div class="u-svetu-tambure-about">Maнифестација под називом „Коњи наши разиграни“ се одржава на стадиону „Мостонга“ у Дорослову 30.07.2023. <br> Организатор: Жељко 0691810501, Илдико 060/3355-862</div>
+              <a href="" class="u-svetu-tambure-button">Opsirnije</a>
+            </div>   
+
+
+            <div class="u-svetu-tambure-news-preview">
+              <div>
+                <p class="u-svetu-tambure-location">Grgurevci</p>
+              </div>
+              <a class="picture-link-container">
+                <img class="u-svetu-tambure-picture" src="images/images-u-svetu-tambure/Dani meda - Grgurevci.jpeg"> 
+              </a>
+              <p class="u-svetu-tambure-header">Dani meda - Grgurevci</p> 
+              <div class="u-svetu-tambure-about">Датум одржавања: 01-06.07.2023.<br>Локација: Гргуревци Етно кућа Мајка Ангелина<br>Организатор: Удружење "Пчелари Фрушке горе"<br>Телефон: +381 (0)66 9 444 164
+                
+                Емаил: pcelarifruskegore@gmail.com</div>
+              <a href="" class="u-svetu-tambure-button">Opsirnije</a>
+            </div>
+
+           
+  
+                    
+
+
+
+                              <!--
+                              <div>
+                                <input type="checkbox" name="example_accordion1" id="section2-3-1" class="accordion__input1">
+                                <label for="section2-3-1" class="accordion__label2">Sombor - Doroslovo</label>
+                                <div class="accordion__content1">
+                                  <div class="content2-info">
+                                    <img class="images-2" src="images/images-u-svetu-tambure/5. fijakerijada u doroslovu.jpeg">
+                                    <p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div>
+                                <input type="checkbox" name="example_accordion1" id="section2-3-2" class="accordion__input1">
+                                <label for="section2-3-2" class="accordion__label2">prazno2</label>
+                                <div class="accordion__content1">
+                                  <div class="content2-info">
+                                    prazno
+                                  </div>
+                                </div>
+                              </div>
+                              <div>
+                                <input type="checkbox" name="example_accordion1" id="section2-3-3" class="accordion__input1">
+                                <label for="section2-3-3" class="accordion__label2">prazno3</label>
+                                <div class="accordion__content1">
+                                  <div class="content2-info">
+                                    prazno
+                                </div>
+                              </div>
+                            -->
+              
+            </div>
+          </div>
+        </div>
+        <!--END U SVETU TAMBURE-->
+        <!--TAMBURASKE NOCI-->
+        <div>
+          <input type="checkbox" name="example_accordion" id="section3" class="accordion__input">
+          <label for="section3" class="accordion__label">TAMBURAŠKE NOĆI</label>
+          <div class="accordion__content">
+            <p>Section #3</p>
+            <p>
+        
+            </p>
+          </div>
+        </div>
+        <!--END TAMBURASKE NOCI-->
+        <!--TAMBURASKA VINA-->
+        <div>
+          <input type="checkbox" name="example_accordion" id="section4" class="accordion__input">
+          <label for="section4" class="accordion__label">TAMBURAŠA VINA</label>
+          <div class="accordion__content">
+            <p>Section #4</p>
+            <p>
+    
+            </p>
+          </div>
+        </div>
+        <!--END TAMBURASKA VINA-->
+        <!--TAMBURASKA KUHINJA-->
+        <div>
+          <input type="checkbox" name="example_accordion" id="section5" class="accordion__input">
+          <label for="section5" class="accordion__label">TAMBURAŠKA KUHINJA</label>
+          <div class="accordion__content">
+            <p>Section #5</p>
+            <p>
+              
+            </p>
+          </div>
+        </div>
+        <!--END TAMBURASKA KUHINJA-->
+        <!--TAMBURASKA ODMARALISTA-->
+        <div>
+          <input type="checkbox" name="example_accordion" id="section6" class="accordion__input">
+          <label for="section6" class="accordion__label">TAMBURAŠKA ODMARALIŠTA</label>
+          <div class="accordion__content">
+            <p>Section #6</p>
+            <p>
+       
+            </p>
+          </div>
+        </div>
+        <!--END TAMBURASKA ODMARALISTA-->
+      </div>
+    </div>
+    <!--END ACCORDION MENU-->
+
+    <!--FOOTER-->
+    <div class="footer">
+      <div class="kontakt">Kontakt: tamburicaradio@gmail.com</div>
+    </div>
+    <!--END FOOTER-->
+
+
+    
+    <!--SCRIPT-->
+    <script>
+
+      // GLAVNI MENI//
+
+        function click1() {
+          if (document.getElementById("section2").checked) {
+            document.getElementById("section2").checked = false;
+          }
+          if (document.getElementById("section3").checked) {
+            document.getElementById("section3").checked = false;
+          }
+          if (document.getElementById("section4").checked) {
+            document.getElementById("section4").checked = false;
+          }
+          if (document.getElementById("section5").checked) {
+            document.getElementById("section5").checked = false;
+          }
+          if (document.getElementById("section6").checked) {
+            document.getElementById("section6").checked = false;
+          }
+        }
+
+        function click2() {
+          if (document.getElementById("section1").checked) {
+            document.getElementById("section1").checked = false;
+          }
+          if (document.getElementById("section3").checked) {
+            document.getElementById("section3").checked = false;
+          }
+          if (document.getElementById("section4").checked) {
+            document.getElementById("section4").checked = false;
+          }
+          if (document.getElementById("section5").checked) {
+            document.getElementById("section5").checked = false;
+          }
+          if (document.getElementById("section6").checked) {
+            document.getElementById("section6").checked = false;
+          }
+        }
+
+        function click3() {
+          if (document.getElementById("section1").checked) {
+            document.getElementById("section1").checked = false;
+          }
+          if (document.getElementById("section2").checked) {
+            document.getElementById("section2").checked = false;
+          }
+          if (document.getElementById("section4").checked) {
+            document.getElementById("section4").checked = false;
+          }
+          if (document.getElementById("section5").checked) {
+            document.getElementById("section5").checked = false;
+          }
+          if (document.getElementById("section6").checked) {
+            document.getElementById("section6").checked = false;
+          }
+        }
+
+        function click4() {
+          if (document.getElementById("section1").checked) {
+            document.getElementById("section1").checked = false;
+          }
+          if (document.getElementById("section2").checked) {
+            document.getElementById("section2").checked = false;
+          }
+          if (document.getElementById("section3").checked) {
+            document.getElementById("section3").checked = false;
+          }
+          if (document.getElementById("section5").checked) {
+            document.getElementById("section5").checked = false;
+          }
+          if (document.getElementById("section6").checked) {
+            document.getElementById("section6").checked = false;
+          }
+        }
+
+        function click5() {
+          if (document.getElementById("section1").checked) {
+            document.getElementById("section1").checked = false;
+          }
+          if (document.getElementById("section2").checked) {
+            document.getElementById("section2").checked = false;
+          }
+          if (document.getElementById("section3").checked) {
+            document.getElementById("section3").checked = false;
+          }
+          if (document.getElementById("section4").checked) {
+            document.getElementById("section4").checked = false;
+          }
+          if (document.getElementById("section6").checked) {
+            document.getElementById("section6").checked = false;
+          }
+        }
+
+        function click6() {
+          if (document.getElementById("section1").checked) {
+            document.getElementById("section1").checked = false;
+          }
+          if (document.getElementById("section2").checked) {
+            document.getElementById("section2").checked = false;
+          }
+          if (document.getElementById("section3").checked) {
+            document.getElementById("section3").checked = false;
+          }
+          if (document.getElementById("section4").checked) {
+            document.getElementById("section4").checked = false;
+          }
+          if (document.getElementById("section5").checked) {
+            document.getElementById("section5").checked = false;
+          }
+        }
+
+
+        document.getElementById("section1").onchange = click1;
+        document.getElementById("section2").onchange = click2;
+        document.getElementById("section3").onchange = click3;
+        document.getElementById("section4").onchange = click4;
+        document.getElementById("section5").onchange = click5;
+        document.getElementById("section6").onchange = click6;
+
+      //END//GLAVNI MENI//
+
+      //MENI SKOLE TAMBURE//
+
+        function click1_1() {
+            if (document.getElementById("section1-2").checked) {
+              document.getElementById("section1-2").checked = false;
+            }
+            if (document.getElementById("section1-3").checked) {
+              document.getElementById("section1-3").checked = false;
+            }
+          }
+
+        function click1_2() {
+          if (document.getElementById("section1-1").checked) {
+            document.getElementById("section1-1").checked = false;
+          }
+          if (document.getElementById("section1-3").checked) {
+            document.getElementById("section1-3").checked = false;
+          }
+        }
+
+        function click1_3() {
+          if (document.getElementById("section1-1").checked) {
+            document.getElementById("section1-1").checked = false;
+          }
+          if (document.getElementById("section1-2").checked) {
+            document.getElementById("section1-2").checked = false;
+          }
+        }
+
+        document.getElementById("section1-1").onchange = click1_1;
+        document.getElementById("section1-2").onchange = click1_2;
+        document.getElementById("section1-3").onchange = click1_3;
+      
+      //END MENI SKOLE TAMBURE//
+
+      //MENI U SVETU TAMBURE//
+
+        function click2_1() {
+          if (document.getElementById("section2-2").checked) {
+            document.getElementById("section2-2").checked = false;
+          }
+          if (document.getElementById("section2-3").checked) {
+            document.getElementById("section2-3").checked = false;
+          }
+        }
+
+        function click2_2() {
+          if (document.getElementById("section2-1").checked) {
+            document.getElementById("section2-1").checked = false;
+          }
+          if (document.getElementById("section2-3").checked) {
+            document.getElementById("section2-3").checked = false;
+          }
+        }
+
+        function click2_3() {
+          if (document.getElementById("section2-1").checked) {
+            document.getElementById("section2-1").checked = false;
+          }
+          if (document.getElementById("section2-2").checked) {
+            document.getElementById("section2-2").checked = false;
+          }
+        }
+
+        document.getElementById("section2-1").onchange = click2_1;
+        document.getElementById("section2-2").onchange = click2_2;
+        document.getElementById("section2-3").onchange = click2_3;
+
+            //SOMBOR//
+
+                    function click2_3_1() {
+                      if (document.getElementById("section2-3-2").checked) {
+                        document.getElementById("section2-3-2").checked = false;
+                      }
+                      if (document.getElementById("section2-3-3").checked) {
+                        document.getElementById("section2-3-3").checked = false;
+                      }
+                    }
+
+                    function click2_3_2() {
+                      if (document.getElementById("section2-3-1").checked) {
+                        document.getElementById("section2-3-1").checked = false;
+                      }
+                      if (document.getElementById("section2-3-3").checked) {
+                        document.getElementById("section2-3-3").checked = false;
+                      }
+                    }
+
+                    function click2_3_3() {
+                      if (document.getElementById("section2-3-1").checked) {
+                        document.getElementById("section2-3-1").checked = false;
+                      }
+                      if (document.getElementById("section2-3-2").checked) {
+                        document.getElementById("section2-3-2").checked = false;
+                      }
+                    }
+
+                    document.getElementById("section2-3-1").onchange = click2_3_1;
+                    document.getElementById("section2-3-2").onchange = click2_3_2;
+                    document.getElementById("section2-3-3").onchange = click2_3_3;
+
+                  //END SOMBOR//
+
+      //END U SVETU TAMBURE//
+        
+
+    </script>
+    <!--END SCRIPT-->
+
+  </body>
+</html>

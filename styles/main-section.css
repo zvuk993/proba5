@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.accordion-container {
+  padding-top: 20px;
+  padding-bottom: 32px;
+}
+
+.accordion {
+  border-radius: 5px;
+  overflow: hidden;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.accordion__label,
+.accordion__content {
+  padding: 14px 20px;
+}
+
+.accordion__label1,
+.accordion__content1 {
+  padding: 4px 10px;
+  min-width: 300px;
+}
+
+.accordion__content1 {
+  justify-content: space-between;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+
+.accordion__label,
+.accordion__label1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(20, 1, 1);
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+  transition: background 0.1s;
+}
+
+.accordion__label {
+  font-size: 26px;
+  color: rgb(20, 1, 1);
+  text-shadow: 0 0 2px rgba(232, 12, 12, 0.4);
+  border-radius: 10px;
+}
+
+.accordion__label1 {
+  font-size: 16px;
+  align-items: center;
+  color: rgb(20, 1, 1);
+  text-shadow: 0 0 2px rgba(232, 12, 12, 0.4);
+  text-align: center;
+  border-radius: 5px;
+  white-space: nowrap;
+}
+
+.accordion__label:hover,
+.accordion__label1:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.accordion__content,
+.accordion__content1 {
+  background: #ffffff;
+  line-height: 1.6;
+  font-size: 0.85em;
+  display: none;
+}
+
+.accordion__content1 {
+  background-color: rgb(233, 231, 231);
+  font-size: 16px;
+  margin-top: -34px;
+  padding-top: 40px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.content1-info {
+  display: flex;
+  flex-direction: column;
+  padding-right: 6px;
+}
+
+.content2-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.content1-info-container {
+  display: flex;
+}
+
+.accordion__input,
+.accordion__input1 {
+  display: none;
+}
+
+.accordion__input:checked ~ .accordion__content {
+  display: block;
+}
+
+.accordion__input1:checked ~ .accordion__content1 {
+  display: flex;
+}
+
+
+.accordion__label2 {
+  padding: 4px 10px;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(20, 1, 1);
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+  transition: background 0.1s;
+  font-size: 16px;
+  align-items: center;
+  color: rgb(20, 1, 1);
+  text-shadow: 0 0 2px rgba(232, 12, 12, 0.4);
+  text-align: center;
+  border-radius: 5px;
+}
+
+.images-2 {
+  width: 100%;
+  object-position: center;
+  object-fit: contain;
+ 
+}
+
