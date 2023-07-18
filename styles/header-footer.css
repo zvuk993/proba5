@@ -10,7 +10,7 @@
   text-align: center;
   background-color: rgb(130, 106, 106);
   background-blend-mode: lighten;
-  background-image: url(../images/background-4.png);
+  background-image: url(../images/header-background.png);
   background-attachment:unset;
   background-repeat: no-repeat;
   background-size: cover;
@@ -87,8 +87,8 @@
 .footer {
   position: absolute;
   bottom: 0px;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-top: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) ;
   width: 100%;
   display: flex;
